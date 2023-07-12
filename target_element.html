@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="class">
+        I'm the query selector for class
+    </div>
+    <div id="id">
+        I'm the query selector for id
+    </div>
+    <div id="id_query">
+        I'm the getelement by id
+    </div>
+
+    <script >
+       /* document.querySelector('.class').textContent='The query selector for class has changed';
+        document.querySelector('#id').textContent='the contents changed successfully';
+        document.getElementById('id_query').textContent='get element by id works';*/
+        
+        var class_query=document.querySelector('.class');
+        class_query.textContent='class contents successfully changed'
+        var id_query=document.querySelector('#id');
+        id_query.textContent='id contents successfully changed';
+        var id_getelement=document.getElementById('id_query')
+        id_getelement.textContent='the variable works fine'
+    </script>
+    
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
